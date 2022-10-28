@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Pedro Silva
+author: Pedro Silva
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -21,11 +22,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  pedrox-hs
-linkedin_username: pedro-henrique-silva
 gravatar: e5cc524e56742b520ac89e748d329fb1
+
 github:
   is_project_page: false
+
+social:
+  - url: https://github.com/pedrox-hs
+    icon: github
+  # - url: mailto:yourname@email.com
+  #   icon: envelope
+  # - url: https://twitter.com/username
+  #   icon: twitter
+  - url: https://linkedin.com/in/pedro-henrique-silva
+    icon: linkedin
+  - url: https://stackoverflow.com/users/4566483
+    icon: stack-overflow
+  - url: https://medium.com/@pedrox_
+    icon: medium
 
 header_pages:
   - about.md
