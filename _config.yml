@@ -28,7 +28,7 @@ github:
   is_project_page: false
 
 social:
-  - url: https://github.com/pedrox-hs
+  - url: https://bit.ly/github-pedrox
     icon: github
   # - url: mailto:yourname@email.com
   #   icon: envelope
@@ -36,9 +36,9 @@ social:
   #   icon: twitter
   - url: https://linkedin.com/in/pedro-henrique-silva
     icon: linkedin
-  - url: https://stackoverflow.com/users/4566483
+  - url: https://bit.ly/stackoverflow-pedrox
     icon: stack-overflow
-  - url: https://medium.com/@pedrox_
+  - url: https://bit.ly/medium-pedrox
     icon: medium
 
 header_pages:
