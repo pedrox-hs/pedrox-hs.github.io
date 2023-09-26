@@ -42,7 +42,7 @@ social:
     icon: medium
 
 header_pages:
-  - about.md
+  - meeting.md
 
 # Build settings
 markdown: kramdown
