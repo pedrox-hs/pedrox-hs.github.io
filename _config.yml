@@ -47,8 +47,6 @@ header_pages:
 # Build settings
 markdown: kramdown
 remote_theme: pedrox-hs/sustain
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
