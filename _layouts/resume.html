@@ -1,0 +1,64 @@
+---
+layout: page
+---
+
+<div id="resume" class="container-sm">
+    <div class="row">
+        <section class="col-lg-3 col-md-5 col-sm-12 h-100">
+
+            {% include avatar.html %}
+
+            <h1>{{ site.author }}</h1>
+
+            <p>{{ page.data.headline }}</p>
+            <address>
+                <a href="https://www.google.com/maps/place/{{ page.data.location | strip_html | url_encode }}"
+                    target="_blank">
+                    {{ page.data.location }}
+                </a>
+            </address>
+
+            <p>
+                {% for social in page.data.social_links %}
+                <a href="{{ social.url }}">
+                    <i class="{{ social.icon }}"></i> {{ social.title }}
+                </a><br />
+                {% endfor %}
+            </p>
+        </section>
+        <div class="col-lg-9 col-md-7 col-sm-12">
+            <section>
+                <h2>Experience</h2>
+                {% for experience in page.data.experience %}
+                <article>
+                    <header>
+                        <h3>{{ experience.title}}</h3>
+                        <span>
+                            {% assign location = experience.company | append: ', ' | append: experience.location %}
+                            <address>{{ location }}</address>
+                            <time>{{ experience.date }}</time>
+                        </span>
+                    </header>
+                    {{ experience.description | markdownify }}
+                </article>
+                {% endfor %}
+            </section>
+            <section>
+                <h2>Education</h2>
+                {% for education in page.data.education %}
+                <article>
+                    <header>
+                        <h3>{{ education.title}}</h3>
+                        <span>
+                            {% assign location = education.institution | append: ', ' | append: education.location %}
+                            <address>{{ location }}</address>
+                            <time>{{ education.date }}</time>
+                        </span>
+                    </header>
+                    {{ education.description | markdownify }}
+                </article>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</div>
