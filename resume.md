@@ -90,6 +90,6 @@ I began my career in software development in 2014, initially working with web te
 
 I am dedicated to deepening my knowledge of the technologies and tools I work with, and I am fully committed to quality, consistently writing unit and UI tests, applying architectural patterns and concepts to enhance product maintenance and scalability.
 
-experience across diverse industries and organizations, predominantly within consulting. Throughout this journey, I have actively engaged in a multitude of projects, serving in roles as both a developer and in support of leadership. My experience spans industries such as healthcare, family security, and mainly, finance. I consistently strive to implement agile methodologies in my work.
+I have experience across diverse industries and organizations, predominantly within consulting. Throughout this journey, I have actively engaged in a multitude of projects, serving in roles as both a developer and in support of leadership. My experience spans industries such as healthcare, family security, and mainly, finance. I consistently strive to implement agile methodologies in my work.
 
 Beyond my specialization, I am constantly driven to learn and contribute to various technology domains and demands. I possess strong interpersonal skills and highly value collaborative teamwork.
