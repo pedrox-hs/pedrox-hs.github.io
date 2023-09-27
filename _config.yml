@@ -43,7 +43,7 @@ social:
 
 header_pages:
   - meeting.md
-  - vitae.html
+  - resume.md
 
 # Build settings
 markdown: kramdown

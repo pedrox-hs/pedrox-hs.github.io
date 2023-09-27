@@ -36,7 +36,7 @@ data:
         I developed and maintained the native Android application as part of the team responsible for after-sales of the personal credit, often providing assistance to the platform team as well.
         I also served as a mentor in internal programs and was part of the recruitment team, conducting technical interviews and evaluating candidates and challenges.
         The technology stack used was very dynamic, constantly evolving with a strong commitment to quality.
-        I worked with Kotlin, Java, RxJava, Coroutines, Jetpack, Koin, Modularization, Clean Architecture, MVVM, CI/CD, Unit and UI Testing, and more.
+        I worked with Kotlin, Java, RxJava, Coroutines, Jetpack, Koin, Modularization, Clean Architecture, MVVM, Git, CI/CD, Unit and UI Testing, and more.
 
     - title: Senior Android Developer
       company: Concrete Solutions (Accenture)
@@ -44,7 +44,7 @@ data:
       date: September 2019 to August 2020
       description: |
         I worked as part of a client's team in the banking sector on a White Label credit card application, integrating with the team responsible for developing and maintaining customer support functionalities.
-        The technology stack included Kotlin, RxJava, Coroutines, Jetpack, Kodein, Modularization, Clean Architecture, MVVM, CI/CD, Unit and UI Testing, among others.
+        The technology stack included Kotlin, RxJava, Coroutines, Jetpack, Kodein, Modularization, Clean Architecture, SOLID, MVVM, Git, CI/CD, Unit and UI Testing, among others.
 
     - title: Tech Lead and Software Developer
       company: Digitaly Tech
@@ -52,7 +52,7 @@ data:
       date: October 2018 to April 2019
       description: |
         At Digitaly Consulting, I worked as a technical lead and software developer, where I was responsible for everything from the inception of solutions, defining the appropriate stack and architecture for clients' needs, to developing and maintaining APIs and Android applications.
-        Among the technologies I worked with were PHP, Swoole, Lumen, Docker, JavaScript/NodeJS, Vue, Kotlin, RxJava, Jetpack, Dagger, Clean Architecture, CI/CD, Unit and UI Testing, and others.
+        Among the technologies I worked with were PHP, Swoole, Lumen, Docker, JavaScript/NodeJS, Vue, Kotlin, RxJava, Jetpack, Dagger, Clean Architecture, Git, CI/CD, Unit and UI Testing, and others.
 
     - title: Android Developer
       company: EOKOE Startup Studio
@@ -60,7 +60,7 @@ data:
       date: June 2017 to October 2018
       description: |
         I had the opportunity to work on various projects in diverse sectors, such as healthcare, family security, social impact, and more.
-        The technological stack included Java, Kotlin, RxJava, Realm, Dagger, Clean Architecture, MVP, CI/CD, and others.
+        The technological stack included Java, Kotlin, RxJava, Realm, Dagger, Clean Architecture, MVP, CI/CD, Git, and others.
 
     - title: System Analyst
       company: Sys4web
@@ -77,7 +77,7 @@ data:
       date: September 2014 to April 2017
       description: |
         At Cast IT Group, I worked as a software developer on projects for public sector client companies.
-        The technologies used included Java, PHP, Javascript, Zend Framework, JQuery, CSS, HTML, NodeJS, MySQL, PostgreSQL, SQLite, and others.
+        The technologies used included Java, PHP, Javascript, Zend Framework, JQuery, CSS, HTML, NodeJS, MySQL, PostgreSQL, SQLite, SVN, and others.
 
   education:
     - title: Analyst and Systems Developer
@@ -85,3 +85,11 @@ data:
       location: São Paulo, Brasil
       date: 2022 to present
 ---
+
+I began my career in software development in 2014, initially working with web technologies, using PHP and the relational database PostgreSQL. From 2015 onward, I shifted my focus to native Android app development, but I remain highly adaptable and open to new technologies and challenges.
+
+I am dedicated to deepening my knowledge of the technologies and tools I work with, and I am fully committed to quality, consistently writing unit and UI tests, applying architectural patterns and concepts to enhance product maintenance and scalability.
+
+experience across diverse industries and organizations, predominantly within consulting. Throughout this journey, I have actively engaged in a multitude of projects, serving in roles as both a developer and in support of leadership. My experience spans industries such as healthcare, family security, and mainly, finance. I consistently strive to implement agile methodologies in my work.
+
+Beyond my specialization, I am constantly driven to learn and contribute to various technology domains and demands. I possess strong interpersonal skills and highly value collaborative teamwork.
