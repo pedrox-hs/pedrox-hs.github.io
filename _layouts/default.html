@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="description" content="{{ site.description }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/094d76fa21.js" crossorigin="anonymous" async></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Merriweather:200,400,200bold,400old" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}" />
+
+    <!-- Google Analytics -->
+    {% include analytics.html %}
+</head>
+<!-- Main Body-->
+
+<body>
+    <!-- Navbar header -->
+    {% include header.html %}
+    <!-- Wrap all page content here -->
+    <main id="wrap">
+        {{ content }}
+    </main>
+    <!-- Footer -->
+    {% include footer.html %}
+
+    {% if site.github.is_project_page %}
+    <a href="{{ site.github.repository_url }}"><img style="position: absolute; top: 0; right: 0; border: 0;"
+            src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67"
+            alt="Fork me on GitHub"
+            data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+    {% endif %}
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

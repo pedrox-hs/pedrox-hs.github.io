@@ -1,0 +1,14 @@
+<div class="avatar">
+    <div class="placeholder-wave">
+        <div class="placeholder rounded-circle">
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    {% if site.gravatar %}
+    <img class="rounded-circle shadow-4-strong" src="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=190"
+        alt="Avatar">
+    {% else %}
+    <img class="rounded-circle shadow-4-strong" src="{{ '/assets/img/' | append: site.avatar | relative_url }}"
+        alt="Avatar">
+    {% endif %}
+</div>
