@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Pedro Silva
+title: Home
 ---
 
 Hello! I'm **{{ site.author }}**, a software engineer with over {{ site.time | date: '%Y' | minus: 2014 }} years of experience.
