@@ -9,4 +9,4 @@ I'm committed to open-source and continuous learning. My main focus is on mobile
 
 Beyond coding, I'm passionate about music, love discovering new places, and enjoy playing bowling and table tennis.
 
-To learn more about me, please check out my [resume]({{ '/resume.html' | relative_url }}). If you're interested in my work, mentoring, or consulting services, let's connect on [LinkedIn](http://linkedin.com/in/{{ site.linkedin_username }}). Feel free to send me an [email](mailto:{{ site.email }}) and [schedule a meeting]({{ '/meeting.html' | relative_url }}).
+To learn more about me, please check out my [resume]({{ '/resume.html' | relative_url }}). If you're interested in my work, mentoring, or consulting services, let's connect on [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }}). Feel free to send me an [email](mailto:{{ site.email }}) and [schedule a meeting]({{ '/meeting.html' | relative_url }}).
