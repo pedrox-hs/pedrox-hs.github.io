@@ -7,7 +7,7 @@ data:
   location: São Paulo<br /> São Paulo, Brasil
 
   social_links:
-    - title: contact@pedrenrique.com
+    - title: contact@pedrox.me
       url: mailto:contact@pedrox.me
       icon: fa-solid fa-envelope
 
