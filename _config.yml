@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Pedro Silva
 author: Pedro Silva
-email: "contact@pedrenrique.com"
+email: "contact@pedrox.me"
 description: >- # this means to ignore newlines until "baseurl:"
   Software Engineer with a passion for technology. Over 10 years of experience in web and mobile development. Committed to open-source software and continuous learning. Let's connect and explore technology together.
 baseurl: "/" # the subpath of your site, e.g. /blog
