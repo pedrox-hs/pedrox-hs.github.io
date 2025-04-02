@@ -251,7 +251,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
+    wdm (0.2.0)
     webrick (1.8.2)
 
 PLATFORMS
@@ -264,7 +264,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   tzinfo (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.0)
+  wdm (~> 0.2.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
